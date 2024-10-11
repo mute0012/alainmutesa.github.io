@@ -1,0 +1,37 @@
+
+header{
+    background-color: aqua;
+    padding: 1rem;
+    margin: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: rgb(245, 2, 83);
+    padding: 1rem;
+}
+
+h1, h2, h3 {
+    text-decoration: underline;
+}
+
+p{
+    font-weight: 600;
+}
+
+div p{
+    font-weight: 200;
+}
+
+.highlight {
+    background-color: gold;
+}
+#explain {
+    border: 2px dotted gray;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+li:nth-child(even) {
+    background-color: aquamarine;
+}
+/* comment: ctrl + / */
